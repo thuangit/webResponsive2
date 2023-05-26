@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive web shoppe</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="product.css">
+    <link rel="shortcut icon" href="../logo/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <section class="header-top head">
+                <nav class="left">
+                    <ul class="under-list">
+                        <li class="list-item">
+                            <a href="#" class="item">kênh người bán</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="item">trở thành người bán</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="item item-note">tải ứng dụng
+                                <ul class="under-list-node under-left">
+                                    <li class="note-hide">
+                                        <ul class="notify-note">
+                                            <li class="txt-note">
+                                                <img src="../logo/laza.png" alt="">
+                                                <a href="#">
+                                                    <img src="../logo/app2.png" class="img-note" alt="">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="item accent">kết nối
+                                <span class="notify">
+                                    <a href="#" class="fa-brands fa-instagram item icon"></a>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="right">
+                    <ul class="under-list">
+                        <li class="list-item">
+                            <a href="#" class="item item-note">
+                                <span class="notify">
+                                    <i class="fas fa-bell icon"></i>
+                                </span>
+                                Thông báo
+                                <ul class="under-list-node">
+                                    <li class="note-hide">
+                                        <ul class="notify-note">
+                                            <li class="txt-note">
+                                                <img src="../logo/dang-ki-ngay.gif" alt="">
+                                                <a href="#">
+                                                    đăng nhập để xem thông báo
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="hide-login-note">
+
+                                            <li class="login-note">
+                                                <a href="#">đăng ký</a>
+                                            </li>
+                                            <li class="login-note">
+                                                <a href="#">đăng nhập</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="item">
+                                <span class="notify">
+                                    <i class="fas fa-circle-info icon"></i>
+                                </span>
+                                Hỗ trợ
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="item item-note">
+                                <span class="notify">
+                                    <i class="fas fa-globe icon"></i>
+                                </span>
+                                ngôn ngữ
+                                <span class="notify">
+                                    <i class="fas fa-light fa-chevron-down icon-down"></i>
+                                </span>
+                                <ul class="under-list-node under-right">
+                                    <ul class="note-hide node-right">
+                                        <li class="txt-note txt-right"><a href="#">tieng viet</a></li>
+                                        <li class="txt-note txt-right"><a href="#">english</a></li>
+                                        <li class="txt-note txt-right"><a href="#">german</a></li>
+                                    </ul>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="item">đăng ký</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="item">đăng nhập</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="header-mid">
+                <div class="input">
+                    <div class="logo">
+                        <p class="last-logo text-logo">shop</p>
+                        <h3 class="first-txt text-logo">pht</h3>
+                    </div>
+                    <label for="search">
+                        <input type="search" class="search" id="search" placeholder="Tìm kiếm sản phẩm mới nhất...">
+                        <i class="fas fa-magnifying-glass icon " id="search"></i>
+                    </label>
+                    <div class="cart-item list-item">
+                        <span class="fas fa-cart-shopping "></span>
+                        <ul class="under-list-node cart">
+                            <li class="note-hide">
+                                <ul class="notify-note">
+                                    <li class="txt-note">
+                                        <img src="../logo/no-cart.png" class="img-cart" alt="">
+                                        <a href="#">
+                                            <span class="add-cart">
+                                                <i class="fa-regular fa-plus"></i>
+                                                <p>thêm sản phẩm</p>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <div class="outside-hide">
+                <div class="hide-main">
+                    <div class=" fas fa-bars bars" id="bar"></div>
+                    <section class="hide-menu">
+                        <div class="main-nav-hide ">
+                            <div class=" menu">
+                                <ul class="unorder">
+                                    <li class="item_nav first-nav">
+                                        <a href="#home" class="nav-a">
+                                            <span class="fa fa-light fa-house icon-nav"></span>
+                                            <span class="text-a"> trang chủ</span>
+                                        </a>
+                                    </li>
+                                    <li class="item_nav ">
+                                        <a href="#home" class="nav-a">
+                                            <span class="fas fa-mars icon-nav"></span>
+                                            <div class=" text-a">
+                                                <span class="navbar-txt">đồ nam
+                                                    <h5 class="new">new</h5>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="item_nav">
+                                        <a href="#home" class="nav-a">
+                                            <span class="fas fa-venus icon-nav"></span>
+                                            <div class=" text-a">
+                                                <span class="navbar-txt">đồ nu
+                                                    <h5 class="new">new</h5>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="item_nav">
+                                        <a href="#home" class="nav-a">
+                                            <span class="fa-solid fa-wand-magic-sparkles icon-nav"></span>
+                                            <div class=" text-a">
+                                                <span class="navbar-txt">công nghệ</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="item_nav">
+                                        <a href="#home" class="nav-a">
+                                            <span class="fa-brands fa-hotjar icon-nav"></span>
+                                            <div class=" text-a">
+                                                <span class="navbar-txt"> hot
+                                                    <h5 class="new">new</h5>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="item_nav">
+                                        <a href="#home" class="nav-a">
+                                            <span class="fas fa-shop icon-nav"></span>
+                                            <div class=" text-a">
+                                                <span class="navbar-txt">shop xịn
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="item_nav">
+                                        <a href="#home" class="nav-a">
+                                            <span class="fas fa-gear icon-nav"></span>
+                                            <span class="text-a">cài đặt</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <section class="header-bottom">
+                <div class="nav">
+                    <nav class="navbar ">
+                        <ul class="nav-unorderlist">
+                            <li class="item_nav first-nav">
+                                <a href="#home">
+                                    <i class="fa fa-light fa-house icon-nav"></i>
+                                    trang chủ
+                                </a>
+                            </li>
+                            <li class="item_nav new">
+                                <a href="#home">
+                                    <i class="fas fa-mars icon-nav"></i>
+                                    đồ nam
+                                </a>
+                                <i class="fas fa-chevron-down"></i>
+                                <ul class="boy">
+                                    <li class="relactive-skin">
+                                        <ul class="clothes">
+                                            <li class="title-clothes">
+                                                <h3 class="box-1">hot trend</h3>
+                                            </li>
+                                            <ul class="body-clothes">
+                                                <li class="item-clothes">
+                                                    <a href="#">giay the thao</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </ul>
+                                        <ul class="clothes">
+                                            <li class="title-clothes">
+                                                <h3 class="box-1">hot trend</h3>
+                                            </li>
+                                            <ul class="body-clothes">
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </ul>
+                                        <ul class="clothes">
+                                            <li class="title-clothes">
+                                                <h3 class="box-1">hot trend</h3>
+                                            </li>
+                                            <ul class="body-clothes">
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <p>new</p>
+                            </li>
+                            <li class="item_nav">
+                                <a href="#home">
+                                    <i class="fas fa-venus icon-nav"></i>
+                                    đồ nữ
+                                </a>
+                                <i class="fas fa-chevron-down"></i>
+                                <ul class="boy">
+                                    <li class="relactive-skin">
+                                        <ul class="clothes">
+                                            <li class="title-clothes">
+                                                <h3 class="box-1">hot trend</h3>
+                                            </li>
+                                            <ul class="body-clothes">
+                                                <li class="item-clothes">
+                                                    <a href="#">giay the thao</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </ul>
+                                        <ul class="clothes">
+                                            <li class="title-clothes">
+                                                <h3 class="box-1">hot trend</h3>
+                                            </li>
+                                            <ul class="body-clothes">
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                </li>
+                                            </ul>
+                                        </ul>
+                                        <ul class="clothes">
+                                            <li class="title-clothes">
+                                                <h3 class="box-1">hot trend</h3>
+                                            </li>
+                                            <ul class="body-clothes">
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <p>new</p>
+                            </li>
+                            <li class="item_nav">
+                                <a href="#home">
+                                    <i class="fa-solid fa-wand-magic-sparkles icon-nav"></i>
+                                    công nghệ
+                                </a>
+                                <i class="fas fa-chevron-down"></i>
+                                <ul class="boy">
+                                    <li class="relactive-skin">
+                                        <ul class="clothes">
+                                            <li class="title-clothes">
+                                                <h3 class="box-1">hot trend</h3>
+                                            </li>
+                                            <ul class="body-clothes">
+                                                <li class="item-clothes">
+                                                    <a href="#">shop 1</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item_nav">
+                                <a href="#hot">
+                                    <i class="fa-brands fa-hotjar icon-nav"></i>
+                                    hot
+                                </a>
+                                <p>new</p>
+                            </li>
+                            <li class="item_nav">
+                                <a href="#home">
+                                    <i class="fas fa-shop icon-nav"></i>
+                                    shop xịn
+                                </a>
+                                <i class="fas fa-chevron-down"></i>
+                                <ul class="boy">
+                                    <li class="relactive-skin">
+                                        <ul class="clothes">
+                                            <li class="title-clothes">
+                                                <h3 class="box-1">hot trend</h3>
+                                            </li>
+                                            <ul class="body-clothes">
+                                                <li class="item-clothes">
+                                                    <a href="#">shop 1</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giay</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="item-clothes">
+                                                    <a href="#">giaybvb vckvnckjvncjbkb</a>
+                                                    <i class="fas fa-chevron-down down-box2"></i>
+                                                    <ul class="box-2">
+                                                        <h3 class="title-box2">shop xin</h3>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                        <li class="list_box_2">
+                                                            <a href="#" class="txt_box2">quan sot du loai</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item_nav">
+                                <a href="#home">
+                                    <i class="fas fa-gear icon-nav"></i>
+                                    cài đặt
+                                </a>
+                            </li>
+                        </ul>
+                        <section class="collector">
+                            <nav class="box-message-like">
+                                <ul class="like-mess">
+                                    <li class="item-lm">
+                                        <a href="#">
+                                            <i class="fas fa-message print_like_message">
+                                                <b class="print">1</b>
+                                                <span class="sub show_sub">message</span>
+                                            </i>
+                                        </a>
+                                    </li>
+                                    <li class="item-lm"><a href="#">
+                                            <i class="fas fa-heart  print_like_message">
+                                                <b class="print">99+</b>
+                                                <span class="sub show_sub">like</span>
+                                            </i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </section>
+                    </nav>
+                </div>
+            </section>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main_top">
+            <nav class="slide_right mySwiper">
+                <div class="slide_content swiper-wrapper">
+                    <a href="#" class="mySlide swiper-slide"><img src="../SliderIMG/buy.jpg" alt=""></a>
+                    <a href="#" class="mySlide swiper-slide"><img src="../SliderIMG/movie1.jpg" alt=""></a>
+                    <a href="#" class="mySlide swiper-slide"><img src="../SliderIMG/slide3.webp" alt=""></a>
+                    <a href="#" class="mySlide swiper-slide"><img src="../SliderIMG/slide4.jpg" alt=""></a>
+                    <a href="#" class="mySlide swiper-slide"><img src="../SliderIMG/pima-best-movies-for-kids-2023.png"
+                            alt=""></a>
+                </div>
+                <div class="swiper-button-next btn-swiper"></div>
+                <div class="swiper-button-prev btn-swiper"></div>
+                <div class="swiper-pagination"></div>
+            </nav>
+            <nav class="slide_left ">
+                <div class="slide_top_right slide_small">
+                    <a href="#" class="mySlide "><img src="../SliderIMG/olfriday.png" alt=""></a>
+                </div>
+                <div class="slide_bottom_right slide_small">
+                    <a href="#" class="mySlide "><img src="../SliderIMG/saleoff1.png" alt=""></a>
+                </div>
+            </nav>
+        </section>
+        <!--main content body-->
+        <section class="main_body">
+            <nav class="container_main">
+                <h2 class="rule_title" id="hot">hot</h2>
+                <nav class="template_center">
+                    <div class="product_parent">
+                        <a href="#" class="template">
+                            <div class="box_template_main">
+                                <div class="img_template">
+                                    <img src="../image/clothes.jpg" alt="">
+                                </div>
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">san pham chat luong</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">giam 30%</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">17 000</div>
+                                        <span class="textara">17k da ban</span>
+                                    </div>
+                                </div>
+                                <h5 class="like_template">yeu thich</h5>
+                                <div class="sale_off">
+                                    <h4 class="off text_sale">57%</h4>
+                                    <h3 class="sale text_sale">giam</h3>
+                                </div>
+                                <div class="fit_content_template">
+                                    <h4 class="search_product_same">tim san pham tuong tu</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../image/clothes.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">san pham chat luong</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">giam 30%</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 30.000
+                                        </div>
+                                        <span class="textara">17k da ban</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yeu thich</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">57%</h4>
+                                <h3 class="sale">giam</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tim san pham tuong tu</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../image/clothes.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">san pham chat luong</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">giam 30%</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 30.000
+                                        </div>
+                                        <span class="textara">17k da ban</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yeu thich</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">57%</h4>
+                                <h3 class="sale">giam</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tim san pham tuong tu</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../image/clothes.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">san pham chat luong</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">giam 30%</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 30.000
+                                        </div>
+                                        <span class="textara">17k da ban</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yeu thich</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">57%</h4>
+                                <h3 class="sale">giam</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tim san pham tuong tu</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../image/clothes.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">san pham chat luong</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">giam 30%</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 30.000
+                                        </div>
+                                        <span class="textara">17k da ban</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yeu thich</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">57%</h4>
+                                <h3 class="sale">giam</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tim san pham tuong tu</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../image/clothes.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">san pham chat luong jfhdcxjcxjcndocdv</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">giam 30%</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 30.000
+                                        </div>
+                                        <span class="textara">17k da ban</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yeu thich</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">57%</h4>
+                                <h3 class="sale">giam</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tim san pham tuong tu</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../image/clothes.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">san pham chat luong jfhdcxjcxjcndocdv</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">giam 30%</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 30.000
+                                        </div>
+                                        <span class="textara">17k da ban</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yeu thich</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">57%</h4>
+                                <h3 class="sale">giam</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tim san pham tuong tu</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../image/clothes.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">san pham chat luong jfhdcxjcxjcndocdv</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">giam 30%</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 30.000
+                                        </div>
+                                        <span class="textara">17k da ban</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yeu thich</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">57%</h4>
+                                <h3 class="sale">giam</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tim san pham tuong tu</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../image/clothes.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">san pham chat luong jfhdcxjcxjcndocdv</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">giam 30%</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 30.000
+                                        </div>
+                                        <span class="textara">17k da ban</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yeu thich</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">57%</h4>
+                                <h3 class="sale">giam</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tim san pham tuong tu</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../image/clothes.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">san pham chat luong jfhdcxjcxjcndocdv</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">giam 30%</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 30.000
+                                        </div>
+                                        <span class="textara">17k da ban</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yeu thich</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">57%</h4>
+                                <h3 class="sale">giam</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tim san pham tuong tu</h4>
+                            </div>
+                        </a>
+                    </div>
+                </nav>
+            </nav>
+        </section>
+        <section class="main_technology">
+            <nav class="container_technology ">
+                <div class="title_head_technology">
+                    <h2 class="txt_head_tech">Technology</h2>
+                </div>
+                <div class="swiper_tech mySwiper2">
+                    <ul class="unorther_list_tech swiper-wrapper ">
+                        <li class="list_item_tech swiper-slide">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <img src="../image/clothes2.jpg" alt="">
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            da ban
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <img src="../image/clothes2.jpg" alt="">
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <img src="../image/clothes2.jpg" alt="">
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <img src="../image/clothes2.jpg" alt="">
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <img src="../image/clothes2.jpg" alt="">
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <img src="../image/clothes2.jpg" alt="">
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <img src="../image/clothes2.jpg" alt="">
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <img src="../image/clothes2.jpg" alt="">
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <img src="../image/clothes2.jpg" alt="">
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <img src="../image/clothes2.jpg" alt="">
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="box_next">
+                        <div class="fa fa-chevron-left btn_tech"></div>
+                        <div class="fa fa-angle-right btn_tech"></div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </main>
+</body>
+<script src="product.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+<script>
+    var swiper = new Swiper(".mySwiper2", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 5,
+                spaceBetween: 50,
+            },
+        },
+        navigation: {
+            nextEl: ".fa-angle-right",
+            prevEl: ".fa-chevron-left",
+        },
+    });
+</script>
+
+</html>
