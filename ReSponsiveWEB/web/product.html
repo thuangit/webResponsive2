@@ -15,7 +15,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
 
-<body>
+<body class="reload_scrollbar">
+    <div class="notify_cart_reload_page">
+        <div class="cart_content_reload">
+            <a href="#" class="container_reload">
+                <nav class="reload">
+                    <i class="fa-solid fa-xmark"></i>
+                    <img src="../logo/sale7.avif" alt="">
+                </nav>
+            </a>
+        </div>
+    </div>
     <header class="header">
         <div class="container">
             <section class="header-top head">
@@ -110,10 +120,10 @@
                             </a>
                         </li>
                         <li class="list-item">
-                            <a href="#" class="item">đăng ký</a>
+                            <a href="../login_signup/Signup.html" class="item">đăng ký</a>
                         </li>
                         <li class="list-item">
-                            <a href="#" class="item">đăng nhập</a>
+                            <a href="../login_signup/Login.html" class="item">đăng nhập</a>
                         </li>
                     </ul>
                 </nav>
@@ -225,13 +235,13 @@
                     <nav class="navbar ">
                         <ul class="nav-unorderlist">
                             <li class="item_nav first-nav">
-                                <a href="#home">
+                                <a href="#home" onclick="reloadHomePage()">
                                     <i class="fa fa-light fa-house icon-nav"></i>
                                     trang chủ
                                 </a>
                             </li>
                             <li class="item_nav new">
-                                <a href="#home">
+                                <a href="#man">
                                     <i class="fas fa-mars icon-nav"></i>
                                     đồ nam
                                 </a>
@@ -492,7 +502,7 @@
                                 <p>new</p>
                             </li>
                             <li class="item_nav">
-                                <a href="#home">
+                                <a href="#women">
                                     <i class="fas fa-venus icon-nav"></i>
                                     đồ nữ
                                 </a>
@@ -721,7 +731,7 @@
                                 <p>new</p>
                             </li>
                             <li class="item_nav">
-                                <a href="#home">
+                                <a href="#technology">
                                     <i class="fa-solid fa-wand-magic-sparkles icon-nav"></i>
                                     công nghệ
                                 </a>
@@ -972,438 +982,304 @@
                 </div>
             </nav>
         </section>
-        <!--main content body-->
-        <section class="main_body">
-            <nav class="container_main">
-                <h2 class="rule_title" id="hot">hot</h2>
-                <nav class="template_center">
-                    <div class="product_parent">
-                        <a href="#" class="template">
-                            <div class="box_template_main">
-                                <div class="img_template">
-                                    <img src="../image/clothes.jpg" alt="">
-                                </div>
-                                <div class="template_text">
-                                    <div class="sub_template">
-                                        <p class="paragraph">san pham chat luong</p>
-                                    </div>
-                                    <div class="flash_sale">
-                                        <div class="sale2">giam 30%</div>
-                                        <b class="flash">flash sale</b>
-                                    </div>
-                                    <div class="price_template">
-                                        <div class="price">17 000</div>
-                                        <span class="textara">17k da ban</span>
-                                    </div>
-                                </div>
-                                <h5 class="like_template">yeu thich</h5>
-                                <div class="sale_off">
-                                    <h4 class="off text_sale">57%</h4>
-                                    <h3 class="sale text_sale">giam</h3>
-                                </div>
-                                <div class="fit_content_template">
-                                    <h4 class="search_product_same">tim san pham tuong tu</h4>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#" class="template">
-                            <div class="img_template">
-                                <img src="../image/clothes.jpg" alt="">
-                                <div class="template_text">
-                                    <div class="sub_template">
-                                        <p class="paragraph">san pham chat luong</p>
-                                    </div>
-                                    <div class="flash_sale">
-                                        <div class="sale2">giam 30%</div>
-                                        <b class="flash">flash sale</b>
-                                    </div>
-                                    <div class="price_template">
-                                        <div class="price">
-                                            <b class="d">đ</b> 30.000
-                                        </div>
-                                        <span class="textara">17k da ban</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <h5 class="like_template">yeu thich</h5>
-                            <div class="sale_off">
-                                <h4 class="off ">57%</h4>
-                                <h3 class="sale">giam</h3>
-                            </div>
-                            <div class="fit_content_template">
-                                <h4 class="search_product_same">tim san pham tuong tu</h4>
-                            </div>
-                        </a>
-                        <a href="#" class="template">
-                            <div class="img_template">
-                                <img src="../image/clothes.jpg" alt="">
-                                <div class="template_text">
-                                    <div class="sub_template">
-                                        <p class="paragraph">san pham chat luong</p>
-                                    </div>
-                                    <div class="flash_sale">
-                                        <div class="sale2">giam 30%</div>
-                                        <b class="flash">flash sale</b>
-                                    </div>
-                                    <div class="price_template">
-                                        <div class="price">
-                                            <b class="d">đ</b> 30.000
-                                        </div>
-                                        <span class="textara">17k da ban</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <h5 class="like_template">yeu thich</h5>
-                            <div class="sale_off">
-                                <h4 class="off ">57%</h4>
-                                <h3 class="sale">giam</h3>
-                            </div>
-                            <div class="fit_content_template">
-                                <h4 class="search_product_same">tim san pham tuong tu</h4>
-                            </div>
-                        </a>
-                        <a href="#" class="template">
-                            <div class="img_template">
-                                <img src="../image/clothes.jpg" alt="">
-                                <div class="template_text">
-                                    <div class="sub_template">
-                                        <p class="paragraph">san pham chat luong</p>
-                                    </div>
-                                    <div class="flash_sale">
-                                        <div class="sale2">giam 30%</div>
-                                        <b class="flash">flash sale</b>
-                                    </div>
-                                    <div class="price_template">
-                                        <div class="price">
-                                            <b class="d">đ</b> 30.000
-                                        </div>
-                                        <span class="textara">17k da ban</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <h5 class="like_template">yeu thich</h5>
-                            <div class="sale_off">
-                                <h4 class="off ">57%</h4>
-                                <h3 class="sale">giam</h3>
-                            </div>
-                            <div class="fit_content_template">
-                                <h4 class="search_product_same">tim san pham tuong tu</h4>
-                            </div>
-                        </a>
-                        <a href="#" class="template">
-                            <div class="img_template">
-                                <img src="../image/clothes.jpg" alt="">
-                                <div class="template_text">
-                                    <div class="sub_template">
-                                        <p class="paragraph">san pham chat luong</p>
-                                    </div>
-                                    <div class="flash_sale">
-                                        <div class="sale2">giam 30%</div>
-                                        <b class="flash">flash sale</b>
-                                    </div>
-                                    <div class="price_template">
-                                        <div class="price">
-                                            <b class="d">đ</b> 30.000
-                                        </div>
-                                        <span class="textara">17k da ban</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <h5 class="like_template">yeu thich</h5>
-                            <div class="sale_off">
-                                <h4 class="off ">57%</h4>
-                                <h3 class="sale">giam</h3>
-                            </div>
-                            <div class="fit_content_template">
-                                <h4 class="search_product_same">tim san pham tuong tu</h4>
-                            </div>
-                        </a>
-                        <a href="#" class="template">
-                            <div class="img_template">
-                                <img src="../image/clothes.jpg" alt="">
-                                <div class="template_text">
-                                    <div class="sub_template">
-                                        <p class="paragraph">san pham chat luong jfhdcxjcxjcndocdv</p>
-                                    </div>
-                                    <div class="flash_sale">
-                                        <div class="sale2">giam 30%</div>
-                                        <b class="flash">flash sale</b>
-                                    </div>
-                                    <div class="price_template">
-                                        <div class="price">
-                                            <b class="d">đ</b> 30.000
-                                        </div>
-                                        <span class="textara">17k da ban</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <h5 class="like_template">yeu thich</h5>
-                            <div class="sale_off">
-                                <h4 class="off ">57%</h4>
-                                <h3 class="sale">giam</h3>
-                            </div>
-                            <div class="fit_content_template">
-                                <h4 class="search_product_same">tim san pham tuong tu</h4>
-                            </div>
-                        </a>
-                        <a href="#" class="template">
-                            <div class="img_template">
-                                <img src="../image/clothes.jpg" alt="">
-                                <div class="template_text">
-                                    <div class="sub_template">
-                                        <p class="paragraph">san pham chat luong jfhdcxjcxjcndocdv</p>
-                                    </div>
-                                    <div class="flash_sale">
-                                        <div class="sale2">giam 30%</div>
-                                        <b class="flash">flash sale</b>
-                                    </div>
-                                    <div class="price_template">
-                                        <div class="price">
-                                            <b class="d">đ</b> 30.000
-                                        </div>
-                                        <span class="textara">17k da ban</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <h5 class="like_template">yeu thich</h5>
-                            <div class="sale_off">
-                                <h4 class="off ">57%</h4>
-                                <h3 class="sale">giam</h3>
-                            </div>
-                            <div class="fit_content_template">
-                                <h4 class="search_product_same">tim san pham tuong tu</h4>
-                            </div>
-                        </a>
-                        <a href="#" class="template">
-                            <div class="img_template">
-                                <img src="../image/clothes.jpg" alt="">
-                                <div class="template_text">
-                                    <div class="sub_template">
-                                        <p class="paragraph">san pham chat luong jfhdcxjcxjcndocdv</p>
-                                    </div>
-                                    <div class="flash_sale">
-                                        <div class="sale2">giam 30%</div>
-                                        <b class="flash">flash sale</b>
-                                    </div>
-                                    <div class="price_template">
-                                        <div class="price">
-                                            <b class="d">đ</b> 30.000
-                                        </div>
-                                        <span class="textara">17k da ban</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <h5 class="like_template">yeu thich</h5>
-                            <div class="sale_off">
-                                <h4 class="off ">57%</h4>
-                                <h3 class="sale">giam</h3>
-                            </div>
-                            <div class="fit_content_template">
-                                <h4 class="search_product_same">tim san pham tuong tu</h4>
-                            </div>
-                        </a>
-                        <a href="#" class="template">
-                            <div class="img_template">
-                                <img src="../image/clothes.jpg" alt="">
-                                <div class="template_text">
-                                    <div class="sub_template">
-                                        <p class="paragraph">san pham chat luong jfhdcxjcxjcndocdv</p>
-                                    </div>
-                                    <div class="flash_sale">
-                                        <div class="sale2">giam 30%</div>
-                                        <b class="flash">flash sale</b>
-                                    </div>
-                                    <div class="price_template">
-                                        <div class="price">
-                                            <b class="d">đ</b> 30.000
-                                        </div>
-                                        <span class="textara">17k da ban</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <h5 class="like_template">yeu thich</h5>
-                            <div class="sale_off">
-                                <h4 class="off ">57%</h4>
-                                <h3 class="sale">giam</h3>
-                            </div>
-                            <div class="fit_content_template">
-                                <h4 class="search_product_same">tim san pham tuong tu</h4>
-                            </div>
-                        </a>
-                        <a href="#" class="template">
-                            <div class="img_template">
-                                <img src="../image/clothes.jpg" alt="">
-                                <div class="template_text">
-                                    <div class="sub_template">
-                                        <p class="paragraph">san pham chat luong jfhdcxjcxjcndocdv</p>
-                                    </div>
-                                    <div class="flash_sale">
-                                        <div class="sale2">giam 30%</div>
-                                        <b class="flash">flash sale</b>
-                                    </div>
-                                    <div class="price_template">
-                                        <div class="price">
-                                            <b class="d">đ</b> 30.000
-                                        </div>
-                                        <span class="textara">17k da ban</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <h5 class="like_template">yeu thich</h5>
-                            <div class="sale_off">
-                                <h4 class="off ">57%</h4>
-                                <h3 class="sale">giam</h3>
-                            </div>
-                            <div class="fit_content_template">
-                                <h4 class="search_product_same">tim san pham tuong tu</h4>
-                            </div>
-                        </a>
-                    </div>
-                </nav>
-            </nav>
-        </section>
         <section class="main_technology">
             <nav class="container_technology ">
                 <div class="title_head_technology">
-                    <h2 class="txt_head_tech">Technology</h2>
+                    <h2 class="txt_head_tech" id="man">
+                        <p class="title_first_main clothesBoy">đồ nam - shopp Mall</p>
+                    </h2>
+                    <a href="#" class="see_all">xem tất cả
+                        <i class="fas fa-angle-right"></i>
+                    </a>
                 </div>
                 <div class="swiper_tech mySwiper2">
                     <ul class="unorther_list_tech swiper-wrapper ">
-                        <li class="list_item_tech swiper-slide">
+                        <li class="list_item_tech swiper-slide template">
                             <a href="#">
                                 <div class="item_tech">
                                     <div class="img_tech">
-                                        <img src="../image/clothes2.jpg" alt="">
+                                        <div class="overlow_img"> <img src="../img_clothes_man/shoe2.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/s-1.jpg" alt=""></span></div>
                                     </div>
                                     <div class="range">
                                         <span class="range_push">
-                                            da ban
+                                            <h5 class="like_template add_color ">mall free</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">27%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Giày sneaker thể thao nam mẫu mới nhat</h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">d</p>
+                                                <h3 class="money_price money_right_top">350.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
                                         </span>
                                     </div>
                                 </div>
                             </a>
                         </li>
-                        <li class="list_item_tech swiper-slide">
+                        <li class="list_item_tech swiper-slide template">
                             <a href="#">
                                 <div class="item_tech">
                                     <div class="img_tech">
-                                        <img src="../image/clothes2.jpg" alt="">
+                                        <div class="overlow_img"> <img src="../img_clothes_man/shoe3.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/sale.webp" alt=""></span></div>
                                     </div>
                                     <div class="range">
                                         <span class="range_push">
-                                            
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">23%</h4>
+                                                <h3 class="sale">giam</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Giày thể thao nam Loang màu siêu đẹp</h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">690.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
                                         </span>
                                     </div>
                                 </div>
                             </a>
                         </li>
-                        <li class="list_item_tech swiper-slide">
+                        <li class="list_item_tech swiper-slide template">
                             <a href="#">
                                 <div class="item_tech">
                                     <div class="img_tech">
-                                        <img src="../image/clothes2.jpg" alt="">
+                                        <div class="overlow_img"> <img src="../img_clothes_man/shoe1.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/sale2.jpg" alt=""></span></div>
                                     </div>
                                     <div class="range">
                                         <span class="range_push">
-                                            
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">30%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Giày nam đẹp công sở cao cấp chính hãng trẻ
+                                                trung KW-037</h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">899.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
                                         </span>
                                     </div>
                                 </div>
                             </a>
                         </li>
-                        <li class="list_item_tech swiper-slide">
+                        <li class="list_item_tech swiper-slide template">
                             <a href="#">
                                 <div class="item_tech">
                                     <div class="img_tech">
-                                        <img src="../image/clothes2.jpg" alt="">
+                                        <div class="overlow_img"> <img src="../img_clothes_man/trouser1.jpg"
+                                                alt=""><span class="img_sale"><img src="../logo/sale3.jpg"
+                                                    alt=""></span></div>
                                     </div>
                                     <div class="range">
                                         <span class="range_push">
-                                            
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">10%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Quần baggy kaki nam nữ Nasa - Kiểu quần ống
+                                                rộng basic unisex </h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">280.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
                                         </span>
                                     </div>
                                 </div>
                             </a>
                         </li>
-                        <li class="list_item_tech swiper-slide">
+                        <li class="list_item_tech swiper-slide template">
                             <a href="#">
                                 <div class="item_tech">
                                     <div class="img_tech">
-                                        <img src="../image/clothes2.jpg" alt="">
+                                        <div class="overlow_img"> <img src="../img_clothes_man/trouser2.jpg"
+                                                alt=""><span class="img_sale"><img src="../logo/sale4.jpg"
+                                                    alt=""></span></div>
                                     </div>
                                     <div class="range">
                                         <span class="range_push">
-                                            
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">10%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">QUẦN JOGGER KAKI NAM CAO CẤP, SIÊU ĐẸP, SIÊU
+                                                BỀN</h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">190.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
                                         </span>
                                     </div>
                                 </div>
                             </a>
                         </li>
-                        <li class="list_item_tech swiper-slide">
+                        <li class="list_item_tech swiper-slide template">
                             <a href="#">
                                 <div class="item_tech">
                                     <div class="img_tech">
-                                        <img src="../image/clothes2.jpg" alt="">
+                                        <div class="overlow_img"> <img src="../img_clothes_man/trouser3.jpg"
+                                                alt=""><span class="img_sale"><img src="../logo/sale5.jpg"
+                                                    alt=""></span></div>
                                     </div>
                                     <div class="range">
                                         <span class="range_push">
-                                            
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">20%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Quần Short Kaki Nam, Quần Ngắn Nam Thời trang
+                                                Trẻ Trung Năng Động</h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">110.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
                                         </span>
                                     </div>
                                 </div>
                             </a>
                         </li>
-                        <li class="list_item_tech swiper-slide">
+                        <li class="list_item_tech swiper-slide template">
                             <a href="#">
                                 <div class="item_tech">
                                     <div class="img_tech">
-                                        <img src="../image/clothes2.jpg" alt="">
+                                        <div class="overlow_img"> <img src="../img_clothes_man/dep1.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/sale6.jpg" alt=""></span></div>
                                     </div>
                                     <div class="range">
                                         <span class="range_push">
-                                            
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">37%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Dép nam Gucci quai chéo màu đen quai xanh đỏ
+                                                họa tiết</h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">90.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
                                         </span>
                                     </div>
                                 </div>
                             </a>
                         </li>
-                        <li class="list_item_tech swiper-slide">
+                        <li class="list_item_tech swiper-slide template">
                             <a href="#">
                                 <div class="item_tech">
                                     <div class="img_tech">
-                                        <img src="../image/clothes2.jpg" alt="">
+                                        <div class="overlow_img"> <img src="../img_clothes_man/dep2.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/s-1.jpg" alt=""></span></div>
                                     </div>
                                     <div class="range">
                                         <span class="range_push">
-                                            
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">27%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Dép Nam in chữ nổi 2 màu hot mới nhất 2023</h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">210.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
                                         </span>
                                     </div>
                                 </div>
                             </a>
                         </li>
-                        <li class="list_item_tech swiper-slide">
+                        <li class="list_item_tech swiper-slide template">
                             <a href="#">
                                 <div class="item_tech">
                                     <div class="img_tech">
-                                        <img src="../image/clothes2.jpg" alt="">
+                                        <div class="overlow_img"> <img src="../img_clothes_man/headphone1.jpg"
+                                                alt=""><span class="img_sale"><img src="../logo/sale.webp"
+                                                    alt=""></span></div>
                                     </div>
                                     <div class="range">
                                         <span class="range_push">
-                                            
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">57%</h4>
+                                                <h3 class="sale">giam</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Tai nghe Marshall Motif A.N.C chính hãng [
+                                                Likenew ]</h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">d</p>
+                                                <h3 class="money_price money_right_top">350.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
                                         </span>
                                     </div>
                                 </div>
                             </a>
                         </li>
-                        <li class="list_item_tech swiper-slide">
+                        <li class="list_item_tech swiper-slide template">
                             <a href="#">
                                 <div class="item_tech">
                                     <div class="img_tech">
-                                        <img src="../image/clothes2.jpg" alt="">
+                                        <div class="overlow_img"> <img src="../img_clothes_man/sip1.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/sale2.jpg" alt=""></span></div>
                                     </div>
                                     <div class="range">
                                         <span class="range_push">
-                                            
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">5%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Quần lót nam ICON Demin cao cấp chất thun lạnh
+                                                đẹp quần sịp nam </h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">70.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
                                         </span>
                                     </div>
                                 </div>
@@ -1417,6 +1293,1234 @@
                 </div>
             </nav>
         </section>
+        <section class="main_technology">
+            <nav class="container_technology ">
+                <div class="title_head_technology">
+                    <h2 class="txt_head_tech" id="women">
+                        <p class="title_first_main clothesBoy">đồ nữ - fashion shop</p>
+                    </h2>
+                    <a href="#" class="see_all">xem tất cả
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+                <div class="swiper_tech mySwiper2">
+                    <ul class="unorther_list_tech swiper-wrapper ">
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../img_clothes_women/vay1.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/s-1.jpg" alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template add_color ">free ship</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">27%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Váy Đầm Nữ Hè Công Sở Eo Cao Trẻ Trung Thanh
+                                                Lịch</h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">280.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../img_clothes_women/clothes3.jpg"
+                                                alt=""><span class="img_sale"><img src="../logo/sale.webp"
+                                                    alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">33%</h4>
+                                                <h3 class="sale">giam</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Sét Bộ Đồ Nữ Mặc Đi Chơi, Cá Tính, Sang Chảnh
+                                            </h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">290.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../img_clothes_women/clothes2.jpg"
+                                                alt=""><span class="img_sale"><img src="../logo/sale6.jpg"
+                                                    alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">15%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Tổng hợp Quần Áo Nữ Đẹp giá rẻ, bán chạy tháng
+                                                5/2023 - BeeCost</h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">189.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../img_clothes_women/shoe4.webp"
+                                                alt=""><span class="img_sale"><img src="../logo/sale5.jpg"
+                                                    alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">25%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">kiểu dáng thời trang phù hợp với mọi lứa tuổi
+                                            </h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">350.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../img_clothes_women/shoe3.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/sale4.jpg" alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">10%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Thiết kế trẻ trung, hợp thời trang, dễ phối đồ
+                                            </h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">190.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../img_clothes_women/shirt3.jpg"
+                                                alt=""><span class="img_sale"><img src="../logo/sale3.jpg"
+                                                    alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">20%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Áo Cardigan Nỉ Lót Bông Phối Viền 2 Túi, Áo
+                                                Khoác Nữ 2 Màu Đen Trắng</h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">110.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../img_clothes_women/shirt4.jpg"
+                                                alt=""><span class="img_sale"><img src="../logo/sale2.jpg"
+                                                    alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">37%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">ÁO KHOÁC NỮ NỈ NGOẠI CAO CẤP IN LOGO NỔI SIÊU
+                                                CÁ TÍNH </h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">490.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../img_clothes_women/son1.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/sale.webp" alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">47%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Son môi HERORANGE mềm mịn tự nhiên dạng lỏng
+                                            </h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">390.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../img_clothes_women/kem1.webp" alt=""><span
+                                                class="img_sale"><img src="../logo/sale6.jpg" alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">21%</h4>
+                                                <h3 class="sale">giam</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Kem Nền Mỏng Nhẹ Tự Nhiên Cho Lớp Nền Hoàn Hảo
+                                                Romand Zero</h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">d</p>
+                                                <h3 class="money_price money_right_top">180.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../img_clothes_women/sip1.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/sale3.jpg" alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template add_color">mall</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">15%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <h5 class="sub_top_main">Mua Quần lót nữ Đồ lót nữ tăm nơ phối ren phong
+                                                cách Hàn Quốc</h5>
+                                            <div class="new_sub_top">new</div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price money_right_top">90.000
+                                                    <div class="free">fast delivery <i class="fas fa-truck-fast"></i>
+                                                    </div>
+                                                </h3>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="box_next">
+                        <div class="fa fa-chevron-left btn_tech"></div>
+                        <div class="fa fa-angle-right btn_tech"></div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!--main content body-->
+        <section class="main_body">
+            <nav class="container_main">
+                <div class="title_first_main_top">
+                    <h2 class="rule_title" id="hot">hot <span class="title_hot_last">- sản phẩm bán chạy<i
+                                class="fas fa-fire"></i></span></h2>
+                    <div class="countdown_time_sale"></div>
+                </div>
+                <nav class="template_center">
+                    <div class="product_parent">
+                        <a href="#" class="template">
+                            <div class="box_template_main">
+                                <div class="img_template">
+                                    <img src="../hot_img/shoe1.jpg" alt="">
+                                </div>
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">Giày nam sneaker hàn quốc giày độn đế giầy thể thao nam
+                                        </p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">Freeship</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b>270.000
+                                        </div>
+                                        <span class="textara">17k đã bán</span>
+                                    </div>
+                                </div>
+                                <h5 class="like_template">yêu thích</h5>
+                                <div class="sale_off">
+                                    <h4 class="off text_sale">22%</h4>
+                                    <h3 class="sale text_sale">giảm</h3>
+                                </div>
+                                <div class="fit_content_template">
+                                    <h4 class="search_product_same">tìm sản phẩm tương tự</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../hot_img/shirt1.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">Áo Khoác Nỉ Unisex Phong Cách Ulzzang Khóa Zip </p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">Freeship</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 299.000
+                                        </div>
+                                        <span class="textara">5k đã bán</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yêu thích</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">27%</h4>
+                                <h3 class="sale">giảm</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tìm sản phẩm tương tự</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../hot_img/jean1.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">Quần Jean Nam Baggy Ống Suông Unisex phong cách SIMPLE
+                                            Kiểu quần bò</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">Freeship</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 220.000
+                                        </div>
+                                        <span class="textara">12k đã bán</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yêu thích</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">57%</h4>
+                                <h3 class="sale">giam</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tìm sản phẩm tương tự</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../hot_img/dep1.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">Dép quai ngang đế đúc hình ếch xanh cao 5P hàng QC cao
+                                            cấp chất</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">Freeship</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 120.000
+                                        </div>
+                                        <span class="textara">2.5k đã bán</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yêu thích</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">57%</h4>
+                                <h3 class="sale">giam</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tìm sản phẩm tương tự</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../hot_img/headphone1.webp" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">Tai Nghe Bluetooth M10 - Tai Nghe Không Dây Cảm Ứng Với
+                                            Màn Hình Hộp S</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">Freeship</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 285.000
+                                        </div>
+                                        <span class="textara">23k đã bán</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yêu thích</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">57%</h4>
+                                <h3 class="sale">giam</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tìm sản phẩm tương tự</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../hot_img/sunlotion1.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">Kem chống nắng dưỡng thể Cica & Sensitive Care Sun
+                                            Lotion</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">Freeship</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 135.000
+                                        </div>
+                                        <span class="textara">5.5k đã bán</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yêu thích</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">57%</h4>
+                                <h3 class="sale">giam</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tìm sản phẩm tương tự</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../hot_img/shirtshort1.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">Áo Thun Nam, Áo Phông Hàng Hiệu, Đẹp, Thời Trang </p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">Freeship</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 159.000
+                                        </div>
+                                        <span class="textara">2k đã bán</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yêu thích</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">57%</h4>
+                                <h3 class="sale">giam</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tìm sản phẩm tương tự</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../hot_img/omega3.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">Nature's Bounty Beauty Fish Oil + D3, 1200mg, 360mg of
+                                            Omega-3</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">Freeship</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 660.000
+                                        </div>
+                                        <span class="textara">99++ đã bán</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yêu thích</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">57%</h4>
+                                <h3 class="sale">giam</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tìm sản phẩm tương tự</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../hot_img/olive.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">Bộ dầu gội và dầu xả Olive 250ml cho tóc óng mượt</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">Freeship</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 210.000
+                                        </div>
+                                        <span class="textara">7.1k đã bán</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yêu thích</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">27%</h4>
+                                <h3 class="sale">giảm</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tìm sản phẩm tương tự</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="template">
+                            <div class="img_template">
+                                <img src="../hot_img/mouse1.jpg" alt="">
+                                <div class="template_text">
+                                    <div class="sub_template">
+                                        <p class="paragraph">Chuột máy tính có dây Bamba B09 Game Led RGB (Đen)</p>
+                                    </div>
+                                    <div class="flash_sale">
+                                        <div class="sale2">Freeship</div>
+                                        <b class="flash">flash sale</b>
+                                    </div>
+                                    <div class="price_template">
+                                        <div class="price">
+                                            <b class="d">đ</b> 299.000
+                                        </div>
+                                        <span class="textara">8.9k đã bán</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="like_template">yêu thích</h5>
+                            <div class="sale_off">
+                                <h4 class="off ">30%</h4>
+                                <h3 class="sale">giảm</h3>
+                            </div>
+                            <div class="fit_content_template">
+                                <h4 class="search_product_same">tìm sản phẩm tương tự</h4>
+                            </div>
+                        </a>
+                    </div>
+                </nav>
+            </nav>
+        </section>
+        <section class="main_technology">
+            <nav class="container_technology ">
+                <div class="title_head_technology">
+                    <h2 class="txt_head_tech" id="technology">
+                        <p class="title_first_main">flash</p> Technology
+                    </h2>
+                    <a href="#" class="see_all">xem tất cả
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+                <div class="swiper_tech mySwiper2">
+                    <ul class="unorther_list_tech swiper-wrapper ">
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../technology_img/asus.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/Flashsale.png" alt=""></span>
+                                        </div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template">yêu thích</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">18%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price">34.500.000</h3>
+                                            </span>
+                                            <span class="range_promiss">
+                                                <p class="try">ASUS </p>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../technology_img/xiao.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/Flashsale.png" alt=""></span>
+                                        </div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template">yêu thích</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">10%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price">12.990.000</h3>
+                                            </span>
+                                            <span class="range_promiss">
+                                                <p class="try">top bán chạy</p>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../technology_img/headphone.jpg"
+                                                alt=""><span class="img_sale"><img src="../logo/sale6.jpg"
+                                                    alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template">yêu thích</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">27%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price">650.000</h3>
+                                            </span>
+                                            <span class="range_promiss">
+                                                <p class="try">47k++ đã bán</p>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../technology_img/mouse.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/sale3.jpg" alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template">yêu thích</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">15%</h4>
+                                                <h3 class="sale">giảm</h3>
+
+                                            </div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price">1.850.000</h3>
+                                            </span>
+                                            <span class="range_promiss">
+                                                <p class="try">99++ bán chạy</p>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../technology_img/robot.webp" alt=""><span
+                                                class="img_sale"><img src="../logo/sale2.jpg" alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template">yêu thích</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">5%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price">2.250.000</h3>
+                                            </span>
+                                            <span class="range_promiss">
+                                                <p class="try">20k bán chạy</p>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../technology_img/mac.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/sale.webp" alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template">yêu thích</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">38%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price">55.450.000</h3>
+                                            </span>
+                                            <span class="range_promiss">
+                                                <p class="try">top bán chạy</p>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../technology_img/hua.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/s-1.jpg" alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template">yêu thích</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">10%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price">33.990.000</h3>
+                                            </span>
+                                            <span class="range_promiss">
+                                                <p class="try">55k bán chạy</p>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../technology_img/fly1.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/sale.webp" alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template">yêu thích</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">14%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <span class="price">
+                                                <p class="d">d</p>
+                                                <h3 class="money_price">3.950.000</h3>
+                                            </span>
+                                            <span class="range_promiss">
+                                                <p class="try">30k đã bán</p>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../technology_img/fly2.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/sale3.jpg" alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template">yêu thích</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">35%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price">4.200.000</h3>
+                                            </span>
+                                            <span class="range_promiss">
+                                                <p class="try">top bán chạy</p>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list_item_tech swiper-slide template">
+                            <a href="#">
+                                <div class="item_tech">
+                                    <div class="img_tech">
+                                        <div class="overlow_img"> <img src="../technology_img/camera.jpg" alt=""><span
+                                                class="img_sale"><img src="../logo/sale6.jpg" alt=""></span></div>
+                                    </div>
+                                    <div class="range">
+                                        <span class="range_push">
+                                            <h5 class="like_template">yêu thích</h5>
+                                            <div class="sale_off">
+                                                <h4 class="off ">27%</h4>
+                                                <h3 class="sale">giảm</h3>
+                                            </div>
+                                            <span class="price">
+                                                <p class="d">đ</p>
+                                                <h3 class="money_price">44.550.000</h3>
+                                            </span>
+                                            <span class="range_promiss">
+                                                <p class="try">22k đã bán</p>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="box_next">
+                        <div class="fa fa-chevron-left btn_tech"></div>
+                        <div class="fa fa-angle-right btn_tech"></div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section class="main_bottom">
+            <div class="content_main_bot">
+                <div class="title_main">
+                    <h3 class="title_header_main_bot">danh muc</h3>
+                    <h2 class="clothes_man">tìm kiếm hàng đầu</h2>
+                </div>
+                <div class="content-bot">
+                    <nav class="main_bottom_container">
+                        <div class="slide_main_bot mySwiper3">
+                            <nav class="slider_left_bot swiper-wrapper">
+                                <div class="img_slide_bot swiper-slide">
+                                    <a href="#"><img src="../SliderIMG/sale1.png" alt=""></a>
+                                </div>
+                                <div class="img_slide_bot swiper-slide">
+                                    <a href="#"><img src="../SliderIMG/sale4.webp" alt=""></a>
+                                </div>
+                                <div class="img_slide_bot swiper-slide">
+                                    <a href="#"><img src="../SliderIMG/sale3.webp" alt=""></a>
+                                </div>
+                            </nav>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next btn_slide"></div>
+                            <div class="swiper-button-prev  btn_slide"></div>
+                        </div>
+                        <div class="main_right_bot">
+                            <ul class="right_main_bottom mySwiper4 slideMainBot">
+                                <li class="right_container swiper-wrapper">
+                                    <ul class="right_content swiper-slide">
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/dep.jpeg" alt="">
+                                                <p class="trademark_product">Dion Unisex Popular</p>
+                                                <h4 class="sub_main_right">Dép Nam Và Nữ Quai Ngang</h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/phone1.jpg" alt="">
+                                                <p class="trademark_product">Apple</p>
+                                                <h4 class="sub_main_right">iPhone 14 Pro 128GB</h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/laptop1.png" alt="">
+                                                <p class="trademark_product"> Apple</p>
+                                                <h4 class="sub_main_right">Laptop | Máy tính xách tay</h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/shirtman1.jpg" alt="">
+                                                <p class="trademark_product">UNIQLO</p>
+                                                <h4 class="sub_main_right">Áo polo nam ngắn tay</h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/haygirl.jpg" alt="">
+                                                <p class="trademark_product">sakurafashion</p>
+                                                <h4 class="sub_main_right">quần áo nữ Chất Lượng</h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/shoe1.jpg" alt="">
+                                                <p class="trademark_product">MY861</p>
+                                                <h4 class="sub_main_right">Giày thể thao nữ</h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/shoe3.jpg" alt="">
+                                                <p class="trademark_product">ELLY HOMME</p>
+                                                <h4 class="sub_main_right">Giày nam da thật</h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/balo1.jpg" alt="">
+                                                <p class="trademark_product">usa</p>
+                                                <h4 class="sub_main_right">Balo Solo CHÍNH HÃNG</h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/may-rua-xe-mini-xiaomaoshu-2.webp" alt="">
+                                                <p class="trademark_product">XIAOMAOSHU</p>
+                                                <h4 class="sub_main_right">Máy rửa xe cao áp gia đình </h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/may-loc-nuoc-karofi-thong-minh-iro-2-0-9-cap-loc-2908.jpg"
+                                                    alt="">
+                                                <p class="trademark_product">Karofi </p>
+                                                <h4 class="sub_main_right">Máy lọc nước </h4>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="right_content swiper-slide">
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/olive.jpg" alt="">
+                                                <p class="trademark_product">Amway Queen Extra</p>
+                                                <h4 class="sub_main_right">Sữa tắm olive</h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/larue.jpg" alt="">
+                                                <p class="trademark_product">larue</p>
+                                                <h4 class="sub_main_right">THÙNG 24 LON BIA LARUE</h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/by.jpg" alt="">
+                                                <p class="trademark_product">vinfast</p>
+                                                <h4 class="sub_main_right">XE MÁY ĐIỆN CANELY S</h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/kem.webp" alt="">
+                                                <p class="trademark_product"> Anthelios XL</p>
+                                                <h4 class="sub_main_right">Kem chống nắng</h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/quanlot.jpg" alt="">
+                                                <p class="trademark_product">gucci</p>
+                                                <h4 class="sub_main_right"> quần lót nữ</h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/son.webp" alt="">
+                                                <p class="trademark_product">Gilaa</p>
+                                                <h4 class="sub_main_right">Son Kem Lì</h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/bot-banh-cuon-vinh-thuan-1.webp" alt="">
+                                                <p class="trademark_product">saphavi</p>
+                                                <h4 class="sub_main_right">Bột làm bánh cuốn</h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/ri.jpg" alt="">
+                                                <p class="trademark_product">3M</p>
+                                                <h4 class="sub_main_right">dầu chống rỉ sét </h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/may-khoan-be-tong-bosch-3.jpg" alt="">
+                                                <p class="trademark_product">GBH 2-24 RE</p>
+                                                <h4 class="sub_main_right">Máy khoan búa </h4>
+                                            </a>
+                                        </li>
+                                        <li class="list_right_bot_main">
+                                            <a href="#">
+                                                <img src="../image/may-cao-rau-phiips-s5050-1.jpg" alt="">
+                                                <p class="trademark_product">Philips AquaTouch</p>
+                                                <h4 class="sub_main_right">Máy cạo râu </h4>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <div class="swiper-button-next btn_slide next"></div>
+                                <div class="swiper-button-prev btn_slide"></div>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <nav class="container_footer">
+                <ul class="footer_unorder">
+                    <h3 class="title_footer">hỗ trợ khách hàng</h3>
+                    <li class="footer_main">
+                        <ul class="footer_content">
+                            <li class="list_footer">
+                                <a href="#">Hotline: 078370519x
+                                    (1000 đ/phút, 8-21h kể cả T7, CN)</a>
+                            </li>
+                            <li class="list_footer">
+                                <a href="#">Các câu hỏi thường gặp</a>
+                            </li>
+                            <li class="list_footer">
+                                <a href="#">Gửi yêu cầu hỗ trợ</a>
+                            </li>
+                            <li class="list_footer">
+                                <a href="#">Hướng dẫn đặt hàng</a>
+                            </li>
+                            <li class="list_footer">
+                                <a href="#">Phương thức vận chuyển</a>
+                            </li>
+                            <li class="list_footer">
+                                <a href="#">Chính sách đổi trả</a>
+                            </li>
+                            <li class="list_footer">
+                                <a href="#">Chính sách hàng nhập khẩu</a>
+                            </li>
+                            <li class="list_footer">
+                                <a href="#">Hỗ trợ khách hàng: shoppht.com</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="footer_unorder">
+                    <h3 class="title_footer">Về shopPHT</h3>
+                    <li class="footer_main">
+                        <ul class="footer_content">
+                            <li class="list_footer">
+                                <a href="#">Điều kiện vận chuyển</a>
+                            </li>
+                            <li class="list_footer">
+                                <a href="#">Bán hàng doanh nghiệp</a>
+                            </li>
+                            <li class="list_footer">
+                                <a href="#">Tiếp thị liên kết cùng Tiki</a>
+                            </li>
+                            <li class="list_footer">
+                                <a href="#">Gửi Astra nhận Xu mua sắm thả ga</a>
+                            </li>
+                            <li class="list_footer">
+                                <a href="#">Điều khoản sử dụng</a>
+                            </li>
+                            <li class="list_footer">
+                                <a href="#">Chính sách giải quyết khiếu nại</a>
+                            </li>
+                            <li class="list_footer">
+                                <a href="#">Chính sách bảo mật thông tin cá nhân</a>
+                            </li>
+                            <li class="list_footer">
+                                <a href="#">Chính sách bảo mật thanh toán</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="footer_unorder">
+                    <h3 class="title_footer">Hợp tác và liên kết</h3>
+                    <li class="footer_main">
+                        <ul class="footer_content">
+                            <li class="list_footer">
+                                <a href="#">Quy chế hoạt động Sàn GDTMĐT</a>
+                            </li>
+                            <li class="list_footer">
+                                <a href="#">Bán hàng cùng shopPHT</a>
+                            </li>
+                            <ul class="footer_unorder">
+                                <h3 class="title_footer">Chứng nhận bởi</h3>
+                                <li class="footer_main">
+                                    <ul class="footer_content logo_footer">
+                                        <li class="list_footer">
+                                            <a href="#"><img src="../logo/moc.jpg" alt=""></a>
+                                        </li>
+                                        <li class="list_footer">
+                                            <a href="#"><img src="../logo/chungnhan.png" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="footer_unorder">
+                    <h3 class="title_footer">Phương thức thanh toán</h3>
+                    <li class="footer_main">
+                        <ul class="footer_content">
+                            <li class="list_footer method">
+                                <img src="../logo/momo.jpg" alt="">
+                                <img src="../logo/vn-pay.png" alt="">
+                                <img src="../logo/zalopay.png" alt="">
+                                <img src="../logo/tiki.png" alt="">
+                                <img src="../logo/scb.webp" alt="">
+                                <img src="../logo/agibank.jpg" alt="">
+                                <img src="../logo/vietcom.jpg" alt="">
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="footer_unorder">
+                    <h3 class="title_footer">Kết nối với chúng tôi</h3>
+                    <li class="footer_main">
+                        <ul class="footer_content">
+                            <li class="list_footer method2">
+                                <i class="fa-brands fa-youtube"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <span class="paragrap_footer">
+                Trụ sở chính: Tòa nhà Viettel, Số 285, đường Cách Mạng Tháng 8, phường 12, quận 10, Thành phố Hồ Chí
+                Minh
+
+                PHT nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận hàng trực tiếp tại văn phòng
+                hoặc trung tâm xử lý đơn hàng
+
+                Giấy chứng nhận Đăng ký Kinh doanh số 0783705198 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp lần
+                đầu ngày 06/01/2010 và sửa đổi lần thứ 23 ngày 14/02/2022
+
+                © 2022 - Bản quyền của Công ty TNHH shopPHT
+                <h3>Tiki có tất cả</h3> 
+                Với hàng triệu sản phẩm từ các thương hiệu, cửa hàng uy tín, hàng nghìn loại mặt hàng từ Điện thoại
+                smartphone tới Rau củ quả tươi, kèm theo dịch vụ giao hàng siêu tốc TikiNOW, Tiki mang đến cho bạn một
+                trải nghiệm mua sắm online bắt đầu bằng chữ tín. Thêm vào đó, ở Tiki bạn có thể dễ dàng sử dụng vô vàn
+                các tiện ích khác như mua thẻ cào, thanh toán hoá đơn điện nước, các dịch vụ bảo hiểm.
+
+               <h3> Khuyến mãi, ưu đãi tràn ngập</h3>
+                Bạn muốn săn giá sốc, Tiki có giá sốc mỗi ngày cho bạn! Bạn là tín đồ của các thương hiệu, các cửa hàng
+                Official chính hãng đang chờ đón bạn. Không cần săn mã freeship, vì Tiki đã có hàng triệu sản phẩm trong
+                chương trình Freeship+, không giới hạn lượt đặt, tiết kiệm thời gian vàng bạc của bạn. Mua thêm gói
+                TikiNOW tiết kiệm để nhận 100% free ship 2h & trong ngày, hoặc mua gói TikiNOW cao cấp để nhận được 100%
+                freeship, áp dụng cho 100% sản phẩm, 100% tỉnh thành Việt Nam. Bạn muốn tiết kiệm hơn nữa? Đã có
+                TikiCARD, thẻ tín dụng Tiki hoàn tiền 15% trên mọi giao dịch (tối đa hoàn 600k/tháng)
+            </span>
+        </footer>
     </main>
 </body>
 <script src="product.js"></script>
@@ -1445,26 +2549,81 @@
         slidesPerView: 1,
         spaceBetween: 10,
         pagination: {
-            el: ".swiper-pagination",
+            //el: ".swiper-pagination",
             clickable: true,
         },
         breakpoints: {
+            360: {
+                slidesPerView: 2,
+                spaceBetween: 8,
+            },
             640: {
                 slidesPerView: 2,
-                spaceBetween: 20,
+                spaceBetween: 4,
             },
             768: {
                 slidesPerView: 4,
-                spaceBetween: 40,
+                spaceBetween: 8,
             },
             1024: {
                 slidesPerView: 5,
-                spaceBetween: 50,
+                spaceBetween: 10,
             },
         },
         navigation: {
             nextEl: ".fa-angle-right",
             prevEl: ".fa-chevron-left",
+        },
+    });
+</script>
+<script>
+    var swiper = new Swiper(".mySwiper3", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+<script>
+    var swiper = new Swiper(".mySwiper4", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        centeredSlides: true,
+        breakpoints: {
+            360: {
+                slidesPerView: 1,
+                spaceBetween: 8,
+            },
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 4,
+            },
+            768: {
+                slidesPerView: 1,
+                spaceBetween: 8,
+            },
+            1024: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+        },
+        pagination: {
+            //el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
         },
     });
 </script>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Coop Mart</title>
+    <link rel="shortcut icon" href="Co.opmart-Logo-PNG.png" type="image/x-icon">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Inter:wght@400;500&family=Josefin+Sans:wght@600&family=Kanit&family=Kaushan+Script&family=Kolker+Brush&family=Montserrat:wght@200&family=Nunito+Sans:wght@300;400;500;600;700;800&family=Nunito:wght@300;400;500;600&family=Oswald&family=Phudu:wght@300&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@400;500&family=Quicksand:wght@500&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto:wght@900&family=Rubik:wght@400;500;600&family=Schibsted+Grotesk:wght@400;500;600&family=Sedgwick+Ave+Display&family=Source+Sans+Pro:wght@400;600&family=Tilt+Neon&family=Tilt+Prism&family=Titillium+Web:wght@300;400&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        background:linear-gradient(#EA5455,#B3005E,#000) ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .login {
+        width: 450px;
+        height: 650px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        position: relative;
+        overflow: hidden;
+    }
+    .login .header {
+        width: 100%;
+        height: 60px;
+        font-size: 35px;
+        color: #146C94;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 10px;
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    /* form  */
+    .login .content{
+        width: auto;
+        height: calc(100% - 70px);
+     }
+   .login .content .items{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 50px;
+        margin-bottom: 23px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 1px solid #ccc;
+        border-radius: 6px;
+    }
+
+   .login .content .items label{
+    position: absolute;
+    font-size: 14px;
+    background-color: #fff;
+    left: 10px;
+    border-radius: 6px;
+    color: #ccc;
+    padding: 0 10px;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+   }
+   .login .content .items label.focus{
+    top: -10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #333;
+   }
+   .login .content .items label.focus ~ input{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   }
+   .login .content .items input{
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 0 20px;
+    background-color: #fff;
+   }
+   .login .content .check{
+    position: relative;
+    height: 50px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .login .content .check label{
+    font-size: 12px;
+    font-weight: 200;
+    margin-right: 3px;
+   }
+   .login .content .check input{
+    margin-right: 5px;
+   }
+   .login .content .check a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #EA5455;
+    margin-right: 3px;
+   }
+   .login .content .check a:hover{
+    color: #B3005E;
+   }
+   .login button{
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+   }
+   .login button:hover{
+    background-color: #e5e5e5;
+   }
+  .login .register{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 500;
+   }
+   .login .register a{
+    text-decoration: none;
+    color: #19A7CE;
+    margin-left: 3px;
+   }
+   .login .register a:hover{
+    color: #146C94;
+   }
+    /* form  */
+</style>
+
+<body>
+    <form action="#" method="post" class="login">
+        <h2 class="header">
+            Signup
+        </h2>
+        <nav class="content">
+            <div class="items">
+                <label for="name">
+                  First Name
+                </label>
+                <input type="name" id="name" required>
+            </div>
+            <div class="items">
+                <label for="name">
+                   Last Name
+                </label>
+                <input type="name" id="name" required>
+            </div>
+            <div class="items">
+                <label for="email">
+                    Email
+                </label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="items">
+                <label for="password">
+                    Password
+                </label>
+                <input type="password" id="password" required>
+            </div>
+            <div class="items">
+                <label for="password">
+                   Enter Password
+                </label>
+                <input type="password" id="password" required>
+            </div>
+            <div class="check">
+                <label for="check">
+                    <input type="checkbox" id="check" required>
+                    Đồng ý với
+                </label>
+                <a href="#">Chính sách và</a>
+                <a href="#">Bảo mật</a>
+            </div>
+            <button type="submit">
+                Login
+            </button>
+            <div class="register">
+                Bạn đã có tài khoản ? 
+                <a href="Login.html"> Đăng Nhập</a>
+            </div>
+        </nav>
+    </form>
+</body>
+  <script>
+      const itemsLabel = document.querySelectorAll('.items label');
+      const itemInput = document.querySelectorAll('.items input');
+      for(let i = 0;i < itemInput.length;i++){
+         itemInput[i].addEventListener('mouseover',function(){
+              itemsLabel[i].classList.add('focus');
+         });
+         itemInput[i].addEventListener('mouseout',function(){
+            if(itemInput[i].value == ''){
+              itemsLabel[i].classList.remove('focus');
+            }else{
+                itemsLabel[i].classList.add('focus');
+            }
+       });
+      }
+  </script>
+</html>
